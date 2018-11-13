@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.player {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.toggle, .player__button {
+    color: #ffffff;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(212,75,56);
+    width: 50px;
+    height: 30px;
+    border: none;
+}
+
+.toggle {
+    margin-right: 215px;
+}
+
+.skip {
+    width: 30px;
+    height: 30px;
+}
+
+.progress {
+    width: 0%;
+    position: absolute;
+    top: 83.7%;
+}
+
+.progress__filled {
+    background:rgb(212,75,56);
+    height: 30px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 10px 0;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    height: 8.4px;
+    animate: 0.2s;
+    background: rgb(212,75,56);
+  }
+  input[type=range]::-webkit-slider-thumb {
+    height: 20px;
+    width: 10px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+    border: 1px solid #000000;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgb(212,75,56);
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: rgb(212,75,56);
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: rgb(212,75,56);
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  }
+  input[type=range]::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: rgb(212,75,56);
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: rgb(212,75,56);
+  }
