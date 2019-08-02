@@ -1,0 +1,155 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+	background-color: #F8F8FA
+	background-image: url("../img/_src/Vector-1.svg")
+	background-repeat: no-repeat
+	background-position: 100% 1%
+	z-index: 1
+	background-size: 100%
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+
+.main_menu
+	height: 92vh
+	padding-top: 80px
+	ul
+		margin: 0
+		li
+			list-style: none
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05)
+			border-radius: 20px
+			width: 90%
+			padding: 15px 0px
+			margin-top: 10px
+			text-align: center
+			z-index: 1
+			background-color: #fff
+			&:hover
+				background: linear-gradient(175.94deg, #4376B5 0%, #4D59A1 91.83%)
+			a
+				text-transform: uppercase
+				text-decoration: none
+				font-size: 36px
+				font-weight: 300
+				color: #4376B5
+				cursor: default
+				display: block
+				&:hover
+					color: #fff
+
+.map
+	margin-top: -3px
+.arrow-back
+	padding: 15px 25px
+	img
+		width: 40px
+		display: block
+		fill: #fff
+
+.logo_category
+	text-align: center
+	img
+		width: 200px
+		padding-top: 20px 
+		
+		
+	
+
+
+.slider_printer
+	text-align: center
+	font-size: 30px
+	text-transform: uppercase
+	color: #4376B5
+	span
+		margin-top: -20px
+		img
+			display: inline
+			width: 35px
+			margin-top: -15px
+	img
+		margin: 0 auto
+	ul
+	margin: 0
+	li
+		list-style: none
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05)
+		border-radius: 20px
+		width: 90%
+		padding: 10px 0px
+		margin-top: 10px
+		text-align: center
+		z-index: 1
+		background-color: #fff
+		&:first-child
+			margin-top: 20px
+		&:hover
+			background: linear-gradient(175.94deg, #4376B5 0%, #4D59A1 91.83%)
+		a
+			text-transform: uppercase
+			text-decoration: none
+			font-size: 20px
+			font-weight: 300
+			color: #4376B5
+			cursor: default
+			display: block
+			&:hover
+				color: #fff
+
+.kyocera
+	img
+		margin-top: 40px
+		margin-bottom: 20px
+	span
+		img
+			margin-top: 0px
+
+.hp
+	img
+		margin-top: 40px
+		margin-bottom: 20px
+	span
+		img
+			margin-top: 0px
+
+
+
+
+
+
+@import "media" // Always at the end
